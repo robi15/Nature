@@ -1,0 +1,62 @@
+body {
+	width: auto;
+	height:550px;
+	padding-top: 25px;
+	background-image: url("../asset/bird.jpg");
+	background-repeat: no-repeat;
+	background-position: right center;
+	background-size: cover;
+
+}
+header{
+	height: 100px;
+	width: auto;
+    color: black;
+}
+#header-left{
+ float: left;
+ width: 30%;
+}
+#header-right{
+	float: right;
+	 width: 60%;	
+}
+ul {
+	list-style-type: none;
+
+
+}
+li{
+	display: inline;
+	padding: 20px;
+}
+#main{
+	margin-left: 350px;
+	margin-top: 120px;
+}
+#main h4{
+  font-family:Arial;
+  font-weight: lighter;
+  font-size: 20px;
+  position: relative;
+  left:160px;
+  bottom: 15px;
+
+}
+#main h1{
+	font-size: 45px;
+}
+button{
+	padding: 10px 25px;
+	border: 1px solid black;
+}
+ #main button{
+ 	padding: 10px 25px;
+	background: red;
+	color: white;
+	position: relative;
+    left:165px;
+    bottom: 25px;
+   border-radius: 2px;
+   border: none;
+}
